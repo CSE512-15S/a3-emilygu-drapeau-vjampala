@@ -43,7 +43,7 @@ Access our visualization at http://students.washington.edu/drapeau/course_rankin
 
 ### Data Pipeline
 
-See the [data_pipeline/](data_pipeline/) for a look into the data scraping and parsing scripts for this data. The actual scraper has been omitted from this repository but the raw data and the data parser were included. To run the parser, run `python parse_data.py`.
+See the [data_pipeline/](data_pipeline/) for a look into the data scraping and parsing scripts for this data. The actual scraper has been omitted from this repository but the raw data and the data parser were included. To run the parser, run `python parse_data.py`. The final output and the data used for the application can be found in data.csv.
 
 ## Story Board
 
