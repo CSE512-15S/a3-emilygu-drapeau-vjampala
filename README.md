@@ -7,7 +7,7 @@ a3-emilygu-drapeau-vjampala
 2. Ryan Drapeau [drapeau@cs.washington.edu]
 3. Vimala Jampala [vjampala@cs.washington.edu]
 
-## Project Name: Course Ratings
+## Project Name: CourseRatings
 
 ### Background
 
@@ -64,6 +64,8 @@ Another major change was adding a size encoding for the columns. We realized tha
 Lastly, we changed the name of our visualization from "CourseRankings" to "CourseRatings". Our visualization doesn't actually rank the courses, so we didn't want to mislead users with the name “CourseRankings”. We originally wanted to use either a purple or purple-and-gold color encoding for the title, since those are UW's colors, but decided on a purple-and-gray encoding for aesthetic reasons.
 
 ## Development Process
+
+This application is largely built using [React.js](https://facebook.github.io/react/).
 
 Include:
 - Breakdown of how the work was split among the group members.
