@@ -41,9 +41,13 @@ Each course taught by a particular instructor is rated on the remaining five asp
 
 Access our visualization at http://students.washington.edu/drapeau/course_rankings/ or download this repository and run `npm run-script serve` and access this from http://localhost:8000/.
 
+### Data Pipeline
+
+See the [data_pipeline/](data_pipeline/) for a look into the data scraping and parsing scripts for this data.
+
 ## Story Board
 
-[storyboard.pdf](storyboard.pdf?raw=true).
+[storyboard.pdf](storyboard.pdf?raw=true)
 
 
 ### Changes between Storyboard and the Final Implementation
