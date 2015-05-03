@@ -9,6 +9,8 @@ a3-emilygu-drapeau-vjampala
 
 ## Project Name: Course Ratings
 
+### Background
+
 One of the most stressful times during the school year for a student is registration for the next quarter.  Picking the best classes and more importantly the teacher for the class could change a student’s experience for the course. At the end of each quarter, students fill out an evaluation form for professors, rating the professor on different questions posed for example how hard the professor graded.  Currently, UW provides a Course Evaluation page for students to visit in order to see how previous students have rated a particular professor. The current course catalog page simply has a list of classes/professors, each one linked to a page containing a chart with percentages of effectiveness of professors for each category. All of those who have visited this website to decide which professors to take classes from has always complained about how difficult it is to compare ratings for different professor and how uninviting the website is.
 
 The dataset contains professor ratings for different courses he or she has taught for the past two years. Each instructor/course was rated on a scale from 0 to 5 along 26 dimensions including:
