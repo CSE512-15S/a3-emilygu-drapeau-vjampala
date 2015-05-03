@@ -65,7 +65,22 @@ Lastly, we changed the name of our visualization from "CourseRankings" to "Cours
 
 ## Development Process
 
-This application is largely built using [React.js](https://facebook.github.io/react/).
+This application is largely built using [React.js](https://facebook.github.io/react/), which powers the front end. [TaffyDB](http://www.taffydb.com/) was used to query the local database that we create. We wanted to avoid using a server as that would be slow and isn't necessary for the amount of data we are currently dealing with. The entire dataset is sent down as a request when the page is loaded (totaling ~3MB) and is used localing for the rest of the user's session.
+
+### Work Breakdown
+
+Emily Gu
+- Worked on the storyboard.
+- Worked on the writeup.
+- Wrote the feature to be able to click on a course code or professor and see a breakdown of that data.
+
+Ryan Drapeau
+- Wrote the original scraper and has been running it for over the past year to populate the data cache.
+- Wrote the parser to convert the cache into a usable csv file.
+
+Vimala Jampala
+- Worked on the storyboard.
+- Worked on the writeup.
 
 Include:
 - Breakdown of how the work was split among the group members.
