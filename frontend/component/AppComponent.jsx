@@ -98,10 +98,10 @@ var AppComponent = React.createClass({
                         </div>
                     </div>
                     <div className={"screen " + (isCourseDetails ? "active" : "")}>
-                        <CourseDetailComponent course={this.state.activeCourse} taffy={this.state.taffy} />
+                        <CourseDetailComponent onClickInstructor={this.onClickInstructor} course={this.state.activeCourse} taffy={this.state.taffy} />
                     </div>
                     <div className={"screen " + (isInstructorDetails ? "active" : "")}>
-                        <InstructorDetailComponent instructor={this.state.activeInstructor} taffy={this.state.taffy} />
+                        <InstructorDetailComponent onClickCourse={this.onClickCourse} instructor={this.state.activeInstructor} taffy={this.state.taffy} />
                     </div>
                 </div>
 

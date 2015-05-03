@@ -57,7 +57,7 @@ var CourseDetailComponent = React.createClass({
         return (
             <div className="table-container">
                 <h2><span className="courseDetailName">{this.props.course + (this.state.current_course_name ? ': ' + this.state.current_course_name : '')}</span><span className="courseDetailScore">Score: <span className={"scoreRating" + rating}>{runningSum}</span></span></h2>
-                <OverviewComponent onClickCourse={this.onClickCourse} onClickInstructor={function() {}} currentData={this.state.current_courses} headers={headers}/>
+                <OverviewComponent onClickCourse={this.onClickCourse} onClickInstructor={this.props.onClickInstructor} currentData={this.state.current_courses} headers={headers}/>
             </div>
         );
     }
