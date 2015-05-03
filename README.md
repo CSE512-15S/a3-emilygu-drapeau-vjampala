@@ -47,7 +47,7 @@ See the [data_pipeline/](data_pipeline/) for a look into the data scraping and p
 
 ## Story Board
 
-[storyboard.pdf](storyboard.pdf?raw=true)
+[storyboard.pdf](storyboard/storyboard.pdf?raw=true)
 
 
 ### Changes between Storyboard and the Final Implementation
