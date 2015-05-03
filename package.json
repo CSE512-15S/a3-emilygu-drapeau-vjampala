@@ -1,0 +1,27 @@
+{
+  "name" : "Bad-Class",
+  "version": "0.0.1",
+  "description": "Classes are bad sometimes",
+  "scripts": {
+    "compile-ts": "cd frontend; find . -name \"*.ts\" | xargs ../node_modules/.bin/tsc --module commonjs; cd ../",
+    "bundle-client" : "cd frontend; ../node_modules/.bin/browserify main.js -t reactify -o static/js/main.js; cd ../",
+    "bundle-client-prod" : "cd frontend; ../node_modules/.bin/browserify main.js -g uglifyify -t reactify -o static/js/main.js; cd ../",
+
+    "serve" : "npm run-script make && cd frontend/static && python -m SimpleHTTPServer && cd ..",
+    "make" : "npm run-script compile-ts && npm run-script bundle-client-prod"
+  },
+
+  "dependencies": {
+    "typescript" : "latest",
+    "browserify" : "latest",
+    "uglifyify" : "latest",
+    "react" : "latest",
+    "reactify" : "latest",
+    "jquery" : "latest",
+    "taffydb" : "latest",
+    "d3" : "latest"
+  },
+
+  "author": "Aaron Nech, Ryan Drapeau",
+  "license": "N/A"
+}

@@ -39,7 +39,7 @@ Each course taught by a particular instructor is rated on the remaining five asp
 
 ## Running Instructions
 
-Access our visualization at http://students.washington.edu/drapeau/course_rankings/ or download this repository and run `npm run-script serve` and access this from http://localhost:8000/.
+Access our visualization at http://students.washington.edu/drapeau/course_rankings/ or download this repository and run `npm install` then `npm run-script serve` and access this from http://localhost:8000/.
 
 ### Data Pipeline
 
