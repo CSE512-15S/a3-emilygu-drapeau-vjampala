@@ -3,9 +3,9 @@ a3-emilygu-drapeau-vjampala
 
 ## Team Members
 
-1. Emily Gu emilygu@cs.washington.edu
-2. Ryan Drapeau drapeau@cs.washington.edu
-3. Vimala Jampala vjampala@cs.washington.edu
+1. Emily Gu [emilygu@cs.washington.edu]
+2. Ryan Drapeau [drapeau@cs.washington.edu]
+3. Vimala Jampala [vjampala@cs.washington.edu]
 
 ## Project Name: Course Ratings
 
@@ -35,7 +35,7 @@ The table has seven columns:
 * Teaching
 * Graded
 
-Each course taught by a particular instructor is rated on the remaining five aspects with a score between zero and five. The last five columns are color encoded (with green representing scores in between zero and two, yellow representing scores in between three and four, and green representing scores in between four and five) and size encoded (with a larger size representing a better score). Each column can be sorted in ascending or descending order. Additionally, clicking on a course code or instructor name repopulates the table, and shows only results with the clicked course code/instructor name.
+Each course taught by a particular instructor is rated on the remaining five aspects with a score between zero and five. The last five columns are color encoded (with red representing scores in between 0 and 3, yellow representing scores in between 3 and 4, and green representing scores in between 4 and 5) and size encoded (with a larger size representing a better score). Each column can be sorted in ascending or descending order by simply clicking on the header. Additionally, clicking on a course code or instructor name repopulates the table, and shows only results with the clicked course code/instructor name.
 
 ## Running Instructions
 
@@ -43,13 +43,21 @@ Access our visualization at http://students.washington.edu/drapeau/course_rankin
 
 ## Story Board
 
-Put either your storyboard content or a [link to your storyboard pdf file](storyboard.pdf?raw=true) here. Just like A2, you can use any software to create a *reasonable* pdf storyboard.
+[storyboard.pdf](storyboard.pdf?raw=true).
 
 
 ### Changes between Storyboard and the Final Implementation
 
-A paragraph explaining changes between the storyboard and the final implementation.
+One major change between our storyboard and final implementation was the color encoding. We considered three different strategies:
+1. Assigning the color red for scores in between zero and two, yellow for scores in between three and four, and green for scores in between four and five
+2. Assigning the color green for scores in the top 10% of their column, and red for scores in the bottom 10% of their column of the data currently being displayed on the screen.
+3. Assigning the color green for scores in the top 10%, and the color red for scores in the bottom 10%, aggregated across the entire dataset.
 
+We implemented all three color encodings, but decided on the first one because the main use case for this application is to check if a class is a good one to take or not. The first color encoding best describes and targets this use case when compared with the other three. It would be interesting to see if the ratings could be weighted with the percentage of students that filled out the survey but this will be left as future work.
+
+Another major change was adding a size encoding for the columns. We realized that distinguishing between red, green and yellow would be difficult for the color blind, so we also added a size encoding for each column. The larger the bar, the better the score. This will allow people that are color blind to spot trends as easily as people that are not color blind.
+
+Lastly, we changed the name of our visualization from "CourseRankings" to "CourseRatings". Our visualization doesn't actually rank the courses, so we didn't want to mislead users with the name “CourseRankings”. We originally wanted to use either a purple or purple-and-gold color encoding for the title, since those are UW's colors, but decided on a purple-and-gray encoding for aesthetic reasons.
 
 ## Development Process
 
