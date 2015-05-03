@@ -96,6 +96,13 @@ Aspects taking the most time:
 
 React.js was extremely useful in this application as it allowed us to break down the project into different components that needed to be completed. Each one is more or less isolated from the others so this encourages good design and architecture of the entire application. It also made finding bugs fairly easy to find, as they were isolated into distinct components.
 
+None of us knew React before this project and used this application as a reason to learn and experiment with it for the first time. There was a slight learning curve when it came to this Javascript library and we didn't actually see if it would be worth it until we started to implement the Search / Sorting features.
+
 TaffyDB proved to be also extremely useful. Since we were avoiding using a server, the data would need to be queried on the front end rather than in a SQL server running somewhere else. Using Taffy, we were able to mimic the environment of SQL, which we are all familiar with, as well as keeping performance at a maximum. The majority of the lag or latency that comes with clicking the search button is from the addition or deletion of elements on the DOM. React helped with this by keeping a virtual DOM and only rendering the changes that we performed behind the scenes.
 
-The application was also built in a way for more data to be added by simply replacing the data.csv file in the application.
+The application was also built in a way for more data to be added by simply replacing the data.csv file in the application. This will allow us to continue scraping the Course Evaluation page every quarter to expand the functionality. There is a lot of future work that could be done on this project, namely:
+- Add D3 charts and visualizations of courses over time and similar statistics.
+- Incorporate the percentage of students that filled out each survey as some kind of weight in the score.
+- Different search techniques / auto-prediction of queries.
+- Various animations on pages and sorting.
+
