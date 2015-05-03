@@ -5,7 +5,7 @@ a3-emilygu-drapeau-vjampala
 
 1. Emily Gu emilygu@cs.washington.edu
 2. Ryan Drapeau drapeau@cs.washington.edu
-3. Vimala Jampala YYY@uw.edu
+3. Vimala Jampala vjampala@cs.washington.edu
 
 ## Project Name: Course Ratings
 
@@ -22,15 +22,24 @@ The dataset contains professor ratings for different courses he or she has taugh
 
 The course catalog only contains information for the past 2-3 quarters, but this project has been on our to-do list for over a year, therefore we have data spanning 8 quarters. The dataset also  included information about the course for example quarter taught and the number of students who took the evaluation.
 
+### Final Visualization
+
+When our page loads, the user is presented with a page titled “CourseRatings”, a search box and a table header. The search box allows users to search using course code, department or instructor. When the user searches for a course code, department or instructor, the table is populated with rows, with one row for every entry that matches the search term. (If there are no matching results, the page does not change.)
+
+The table has seven columns:
+* Course code
+* Instructor
+* Overall
+* Content
+* Amount Learned
+* Teaching
+* Graded
+
+Each course taught by a particular instructor is rated on the remaining five aspects with a score between zero and five. The last five columns are color encoded (with green representing scores in between zero and two, yellow representing scores in between three and four, and green representing scores in between four and five) and size encoded (with a larger size representing a better score). Each column can be sorted in ascending or descending order. Additionally, clicking on a course code or instructor name repopulates the table, and shows only results with the clicked course code/instructor name.
+
 ## Running Instructions
 
-Put your running instructions here. (Tell us how to run your visualization.)
-
-If your visualization is web-based,  it would be great if your submission can be opened online. [Github Pages](http://pages.github.com/) is a good and easy way to put your visualization online so you can put your link here.  For example:
-
-Access our visualization at http://cse512-15s.github.io/a3-jheer-domoritz-jasnyder/ or download this repository and run `python -m SimpleHTTPServer 9000` and access this from http://localhost:9000/.
-
-If you put your work online, please also write a [one-line description and add a link to your final work](http://note.io/1n3u46s) so people can access it directly from the CSE512-15S page.
+Access our visualization at http://students.washington.edu/drapeau/course_rankings/ or download this repository and run `npm run-script serve` and access this from http://localhost:8000/.
 
 ## Story Board
 
