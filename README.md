@@ -73,17 +73,23 @@ Emily Gu
 - Worked on the storyboard.
 - Worked on the writeup.
 - Wrote the feature to be able to click on a course code or professor and see a breakdown of that data.
+- Wrote the component to display the headers of the data at the top of the table.
 
 Ryan Drapeau
 - Wrote the original scraper and has been running it for over the past year to populate the data cache.
 - Wrote the parser to convert the cache into a usable csv file.
+- Wrote the table component for displaying the results in user friendly rows and columns.
+- Wrote the sorting function that allows users to sort on a header ascending or descending.
 
 Vimala Jampala
 - Worked on the storyboard.
 - Worked on the writeup.
+- Wrote the search function that queries the data for whatever the user searched.
+- Did the majority of the styling for the application.
 
-Include:
-- Breakdown of how the work was split among the group members.
-- A commentary on the development process, including answers to the following questions:
-  - Roughly how much time did you spend developing your application?
-  - What aspects took the most time?
+### Development
+Total time: Each person spent ~17 hours, totaling ~51 hours for this project.
+Aspects taking the most time:
+- Drill down into a specific course or professor
+- Sorting Function and the little arrow indicating the direction of the sort
+- Working with TaffyDB to search the data
