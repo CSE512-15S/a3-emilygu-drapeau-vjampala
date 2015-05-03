@@ -93,3 +93,9 @@ Aspects taking the most time:
 - Drill down into a specific course or professor
 - Sorting Function and the little arrow indicating the direction of the sort
 - Working with TaffyDB to search the data
+
+React.js was extremely useful in this application as it allowed us to break down the project into different components that needed to be completed. Each one is more or less isolated from the others so this encourages good design and architecture of the entire application. It also made finding bugs fairly easy to find, as they were isolated into distinct components.
+
+TaffyDB proved to be also extremely useful. Since we were avoiding using a server, the data would need to be queried on the front end rather than in a SQL server running somewhere else. Using Taffy, we were able to mimic the environment of SQL, which we are all familiar with, as well as keeping performance at a maximum. The majority of the lag or latency that comes with clicking the search button is from the addition or deletion of elements on the DOM. React helped with this by keeping a virtual DOM and only rendering the changes that we performed behind the scenes.
+
+The application was also built in a way for more data to be added by simply replacing the data.csv file in the application.
