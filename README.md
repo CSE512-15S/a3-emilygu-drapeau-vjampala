@@ -33,7 +33,7 @@ The table has seven columns:
 * Content
 * Amount Learned
 * Teaching
-* Graded
+* Grading
 
 Each course taught by a particular instructor is rated on the remaining five aspects with a score between zero and five. The last five columns are color encoded (with red representing scores in between 0 and 3, yellow representing scores in between 3 and 4, and green representing scores in between 4 and 5) and size encoded (with a larger size representing a better score). Each column can be sorted in ascending or descending order by simply clicking on the header. Additionally, clicking on a course code or instructor name repopulates the table, and shows only results with the clicked course code/instructor name.
 
