@@ -20,7 +20,7 @@ The dataset contains professor ratings for different courses he or she has taugh
 * The amount learned
 * The grading technique
 
-The course catalog only contains information for the past 2-3 quarters, but this project has been on our to-do list for over a year, therefore we have data spanning 8 quarters. The dataset also  included information about the course for example quarter taught and the number of students who took the evaluation.
+The course catalog only contains information for the past 2-3 quarters, but this project has been on our to-do list for over a year.  We therefore have data spanning 8 quarters. The dataset also  included information about the course for example quarter taught and the number of students who took the evaluation.
 
 ### Final Visualization
 
