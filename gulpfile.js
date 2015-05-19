@@ -4,7 +4,7 @@ var browserify = require('browserify');
 var source = require("vinyl-source-stream");
 var reactify = require('reactify');
 
-gulp.task('default', ['bundle', 'move']);
+gulp.task('default', ['ts', 'bundle', 'move']);
 
 
 gulp.task('ts', function() {
